@@ -62,7 +62,6 @@ html {
 
 
 #bubleImg {
-  
     position: fixed;
     border-radius: 16px;
     top: 0;
@@ -72,6 +71,13 @@ html {
     object-fit: cover;
     opacity: 0.05; /* Adjust the opacity value as needed (between 0 and 1) */
 }
+
+@media (max-width: 768px) {
+    #bubleImg {
+        display: none; /* Hide the #bubleImg when the screen size is in phone size */
+    }
+}
+
 
 
 
