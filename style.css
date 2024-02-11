@@ -1004,22 +1004,27 @@ noscript{
     background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
 }
 
-.info-dp-section{
-     padding: 10%;
+.info-dp-section {
+    padding: 10%;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
-
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.233);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-/* border: 1px solid rgba(255, 255, 255, 0.3); */
-    
     background-color: #0c0c0c0e;
     width: 100%;
     display: flex;
     margin-top: 30px;
-    
 }
+
+@media (max-width: 768px) {
+    .info-dp-section {
+        backdrop-filter: blur(20px); /* Increase the blur effect for phone size */
+        -webkit-backdrop-filter: blur(10px); /* For Safari */
+        box-shadow: 0 16px 100px rgba(0, 0, 0, 0.233);
+    }
+}
+
 .about-info{
     width: 60%;
     display: flex;
