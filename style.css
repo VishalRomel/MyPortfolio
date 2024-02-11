@@ -1196,7 +1196,7 @@ noscript{
 
 @media (max-width: 768px) {
     .language-name {
-        backdrop-filter: blur(20px); /* Increase the blur effect for phone size */
+        backdrop-filter: blur(10px); /* Increase the blur effect for phone size */
         -webkit-backdrop-filter: blur(10px); /* For Safari */
         box-shadow: 0 16px 100px rgba(0, 0, 0, 0.233);
         background-color: #0c0c0c0e;
