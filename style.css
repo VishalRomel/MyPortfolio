@@ -1208,8 +1208,10 @@ noscript{
 #name2{
      
     font-size: 3rem;
-    font-weight: 600;
-    font-family:Impact;
+    font-weight: 900;
+    
+    font-family:Arial, Helvetica, sans-serifib;
+
     
     width:fit-content;
     display: flex;
