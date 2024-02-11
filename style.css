@@ -69,7 +69,7 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.05; /* Adjust the opacity value as needed (between 0 and 1) */
+    opacity: 0.03; /* Adjust the opacity value as needed (between 0 and 1) */
 }
 
 @media (max-width: 768px) {
@@ -1006,7 +1006,7 @@ noscript{
 
 .info-dp-section {
     padding: 10%;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0);
     border-radius: 16px;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.233);
     backdrop-filter: blur(6px);
@@ -1039,6 +1039,7 @@ noscript{
     color: var(--color-white);
 }
 .dp{
+    margin: 2%;
     width: 40%;
     display: flex;
     align-items: flex-start;
@@ -1177,7 +1178,7 @@ noscript{
     -webkit-backdrop-filter: blur(5px);
 /* border: 1px solid rgba(255, 255, 255, 0.3); */
     
-    background-color: #0c0c0c0e;
+    background-color: #0c0c0c00;
   
   
     display: flex;
@@ -1290,17 +1291,12 @@ noscript{
 }
 .project-box{
 
-    /* From https://css.glass */
-  
-    background: rgba(255, 255, 255, 0.2);
-    border-bottom-left-radius: 16px;
-
+ background: rgba(255, 255, 255, 0);
+ border-bottom-left-radius: 16px;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.233);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-/* border: 1px solid rgba(255, 255, 255, 0.3); */
-    
-    background-color: #0c0c0c0e;
+backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(3px);
+    background-color: #7f7f7f00;
     width: 100%;
     height: 400px;
     display: flex;
@@ -1312,9 +1308,19 @@ noscript{
     url('click.png');
     cursor: url('click.png'),
     move;
-        cursor: url('click.png')10 12;
+    cursor: url('click.png')10 12;
     position: relative;
     box-shadow: 0px 10px 20px var(--color-shadowDark);
+}
+
+@media (max-width: 768px) {
+    .project-box {
+        backdrop-filter: blur(20px); /* Increase the blur effect for phone size */
+        -webkit-backdrop-filter: blur(10px); /* For Safari */
+        box-shadow: 0 16px 100px rgba(0, 0, 0, 0.233);
+        background-color: #0c0c0c0e;
+
+    }
 }
 .language-gradient-class{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.113);
