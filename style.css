@@ -114,7 +114,7 @@ html {
     display: block; /* Initially show the container */
     z-index: -1;
     position: fixed; /* Make sure it's positioned absolutely */
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1); /* Initially centered with normal scale */
     width: 100%; /* 100% of the viewport width */
@@ -742,7 +742,7 @@ noscript{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-color:  #03e6ff;
+    background-color:  #f132ff;
     -webkit-animation: jello-vertical 0.9s both;
 	        animation: jello-vertical 0.9s both;
 }
@@ -1009,9 +1009,9 @@ noscript{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.233);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background-color: #0c0c0c0e;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(3px);
+    background-color: #7f7f7f00;
     width: 100%;
     display: flex;
     margin-top: 30px;
@@ -1022,6 +1022,8 @@ noscript{
         backdrop-filter: blur(20px); /* Increase the blur effect for phone size */
         -webkit-backdrop-filter: blur(10px); /* For Safari */
         box-shadow: 0 16px 100px rgba(0, 0, 0, 0.233);
+        background-color: #0c0c0c0e;
+
     }
 }
 
