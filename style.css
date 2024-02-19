@@ -1414,7 +1414,8 @@ backdrop-filter: blur(6px);
 /* Project visit button */
 .cta {
     position: relative;
-    padding: 12px 18px;
+    padding-bottom:2px ;
+    padding: 1px 1px;
     transition: all 0.2s ease;
     border: none;
     background: none;
