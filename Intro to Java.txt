@@ -1,0 +1,424 @@
+Java Tutorial
+Last Updated : 27 Jun, 2024
+This Java Tutorial is designed for beginners as well as experienced professionals. Whether you’re starting your Java journey and looking to understand the basics of Java or its advanced concepts, this free Java tutorial is the perfect resource for you.
+
+What is Java?
+Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. This platform independent programming language is utilized for Android development, web development, artificial intelligence, cloud applications, and much more.
+
+In this tutorial, we will cover everything from the basics of Java syntax to advanced topics like object-oriented programming and exception handling. So, by the end of this tutorial, you will have a strong understanding of Java and be ready to start writing your own Java applications. So let’s get started on this comprehensive Free Java programming course!
+
+First Java Program
+
+// A Java program to print "Hello World" 
+public class GFG { 
+    public static void main(String args[]) 
+    { 
+        System.out.println("Hello World"); 
+    } 
+}
+Output:
+
+Hello World
+For full explanation of the above Program –
+
+Click HereComplete Java Tutorial
+Table of Content
+
+Overview of Java
+Basics of Java
+Input/Output in Java
+Flow Control in Java
+Operators in Java
+Arrays in Java
+Strings in Java
+OOPS in Java
+Classes of Java
+Interfaces in Java
+Methods in Java
+Packages in Java
+Collection Framework in Java
+Collection Classes in Java
+Memory Allocation in Java
+Exception Handling in Java
+Multithreading in Java
+Synchronization in Java
+File Handling in Java
+Java Regex
+Java IO
+Java Networking
+Java SE 8 Features
+Java Date & Time
+Java JDBC
+Java Miscellaneous
+Interview Questions on Java
+Java Practice Problems
+Java Jobs & Opportunity
+Get Started with Free Java Tutorial
+Here in this section, you will find all the free resources that you need to become zero to mastery in the process of learning Java programming language.
+
+Overview of Java
+Introduction to Java
+History of Java
+Java vs C++ vs Python
+How to Download and Install Java?
+Setting Up the Environment in Java
+How to Download and Install Eclipse on Windows?
+Java Development Kit (JDK) in Java
+JVM and its architecture
+JDK Vs JRE Vs JVM
+Just In Time Compiler
+JIT Vs JVM
+Byte Code Vs Machine Code
+Basics of Java
+Java Basic Syntax
+First Java Program (Hello World)
+Datatypes in Java
+Primitive Vs Non-Primitive Datatypes
+Java Identifiers
+Operators in Java
+Java Variables
+Java Keywords
+Scope of Variables
+Wrapper Classes in Java
+Input/Output in Java
+How to take Input from users in Java
+Scanner class in Java
+BufferedReader class in Java
+Scanner vs BufferedReader in Java
+Ways to Read Input from Console in Java
+Print Output in Java
+print() Vs println() in Java
+Formatted Outputs in Java
+Flow Control in Java
+Decision making in Java
+If Statement in Java
+If-Else Statement in java
+If-Else-If ladder in Java
+Loops in Java
+For loop
+While Loop
+Do while loop
+For each loop
+Continue Statement in java
+Break Statement In Java
+Usage of Break in Java
+Return Statement in Java
+Operators in Java
+Arithmetic Operator
+Unary Operator
+Assignment Operator
+Relational Operator
+Logical Operator
+Ternary Operator
+Bitwise Operator
+Arrays in Java
+Introduction to Arrays in Java
+Arrays class in Java
+Multi-Dimensional Array in Java
+How to declare and initialize 2D arrays in Java
+Jagged array in Java
+Final Arrays in Java
+Reflect Arrays in Java
+Java util.Arrays Vs reflect.Arrays
+Java Array Programs
+Strings in Java
+Introduction of Strings in Java
+String class in Java Set-1 | Set-2
+Why strings are immutable in Java?
+StringBuffer class in Java
+StringBuilder class in Java
+Strings vs StringBuffer vs StringBuilder in Java
+StringTokenizer class in Java Set-1 | Set-2
+StringJoiner in Java
+Java String Programs
+OOPS in Java
+OOPS in Java refers to Object-Oriented Programming concepts implemented in the Java programming language. Java’s OOP features include classes, objects, inheritance, polymorphism, and encapsulation, enabling modular and efficient code development. Understanding OOPS in Java is essential for building robust, scalable, and maintainable software applications.
+
+OOPS Concept in Java
+Why Java is not a purely Object-Oriented Language?
+Classes and Objects
+Naming Convention in Java
+Methods in Java
+Access Modifiers in Java
+Constructors in Java
+Four pillars of OOPS in Java
+Inheritance in Java
+Abstraction in Java
+Encapsulation in Java
+Polymorphism in Java
+Interfaces in Java
+This reference in Java
+Classes of Java
+Classes in Java are the blueprint for creating objects and defining their properties and behaviors. They are the fundamental building blocks of Java programs, enabling the creation of reusable and modular code. Classes can contain fields, methods, constructors, and nested classes, providing a wide range of functionality and flexibility.
+
+Classes and Objects
+Understanding classes and objects in Java
+Class vs interface
+Singleton class in java
+Object class in java
+Inner class in java
+Abstract classes in java
+Throwable class in java
+Interfaces in Java
+Interfaces in Java are abstract types that define a set of methods that a class must implement. They provide a way to achieve abstraction, multiple inheritance, and loose coupling in Java programs. Interfaces are useful for defining common behaviors and functionalities that can be shared across different classes, leading to more modular and reusable code. Mastering interfaces in Java is crucial for building flexible and extensible software applications.
+
+Java Interfaces
+Interfaces and Inheritance in Java
+Class Vs Interface in Java
+Functional Interface
+Nested Interface
+Marker Interface
+Comparator Interface
+Methods in Java
+Introduction to methods in Java
+Different method calls in Java
+Static methods Vs Instance methods in Java
+Abstract methods in Java
+Method Overriding in Java
+Method Overloading in Java
+Method Overloading Vs Method Overriding
+Packages in Java
+Java Packages
+How to create a package in Java
+java.util package
+java.lang package
+java.io package
+Collection Framework in Java
+Java Collection Framework
+Collections class in Java
+Collection Interface in Java
+List Interface in Java
+Queue Interface in Java
+Map Interface in Java
+Set Interface in Java
+SortedSet Interface in Java
+Deque Interface in Java
+Comparator in Java
+Comparator Vs Comparable in Java
+Iterator in Java
+Collection Classes in Java
+ArrayList in Java
+Vector class in Java
+Stack class in Java
+LinkedList in Java
+Priority Queue in Java
+HashMap in Java
+LinkedHashMap in Java
+Dictionary in Java
+HashTable in Java
+HashSet in Java
+TreeSet in Java
+LinkedHashSet in Java
+Memory Allocation in Java
+Java Memory Management
+How are Java objects stored in memory
+Stack vs Heap memory allocation
+Types of memory areas allocated by JVM
+Garbage Collection in Java
+Heap and Stack memory allocation
+Types of JVM Garbage Collectors in Java
+Memory leaks in Java
+Java Virtual Machine(JVM) Stack Area
+Exception Handling in Java
+Exceptions in java
+Types of Exceptions
+Checked Vs Unchecked Exceptions
+Try, Catch, Finally, throw, and throws
+Flow control in Try catch block
+Throw vs Throws
+Final vs Finally vs Finalize
+User-defined custom exception
+Chained Exceptions
+Null pointer Exceptions
+Exception handling with method Overriding
+Multithreading in Java
+Introduction to Multithreading in Java
+Lifecycle and Stages of a Thread
+Thread Priority in Java
+Main Thread in Java
+Thread class
+Runnable interface
+How to name a thread
+start() method in thread
+run() vs start() Method in Java
+sleep() method
+Daemon thread
+Thread Pool in Java
+Thread Group in Java
+Thread Safety in Java
+ShutdownHook
+Multithreading Tutorial
+Synchronization in Java
+Java Synchronization
+Importance of Thread synchronization in Java
+Method and Block Synchronization in Java
+Local frameworks vs thread synchronization
+Atomic Vs Volatile in Java
+Atomic Vs Synchronized in Java
+Deadlock in Multithreading
+Deadlock Prevention and Avoidance
+Lock Vs Monitor in Concurrency
+Reentrant Lock
+File Handling in Java
+File Class in java
+How to create files in java
+How to read files in java
+How to write on files in java
+How to delete a file in java
+File Permissions
+FileReader
+File Writer
+FileDescriptor class
+RandomAccessFile class
+Java Regex
+Introduction to Java Regex
+How to write Regex expressions
+Matcher class
+Pattern class
+Quantifiers
+Character class
+Java IO
+Introduction to Java IO
+Reader Class
+Writer Class
+FileInput stream
+File Output stream
+BufferedReader Input Stream
+BufferedReader Output stream
+BufferedReader vs Scanner
+Fast I/O in Java
+Java Networking
+Introduction to Java Networking
+TCP architecture
+UDP architecture
+IPV4 Vs IPV6
+Connection-oriented Vs connectionless protocols
+Socket programming in Java
+Server Socket class
+URL class and methods
+Java SE 8 Features
+Lambda Expressions
+Streams API
+New Date/Time API
+Default Methods
+Functional Interfaces
+Method references
+Optional class
+Stream Filter
+Type Annotations
+String Joiner
+Java Date & Time
+Date Class in Java
+Methods of the Date class
+Java Current Date and time
+Compare dates in Java
+Java JDBC
+Introduction to Java JDBC
+JDBC Driver
+JDBC Connection
+Types of Statements in JDBC
+JDBC Tutorial
+Java Miscellaneous
+Introduction to Reflection API
+Java IO Tutorial
+JavaFX Tutorial
+Java RMI
+How to Run Java RMI application?
+Java 17 New Features
+Interview Questions on Java
+Core Java Interview Questions
+Java Multiple Choice Questions
+Features of Java
+Java is one of the most popular and widely used programming languages.
+Java has been one of the most popular programming languages for many years.
+Java is Object Oriented. However, it is not considered as pure object-oriented as it provides support for primitive data types (like int, char, etc)
+The Java codes are first compiled into byte code (machine-independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.
+Java syntax is similar to C/C++. But Java does not provide low-level programming functionalities like pointers. Also, Java codes are always written in the form of classes and objects.
+Java is used in all kinds of applications like Mobile Applications (Android is Java-based), desktop applications, web applications, client-server applications, enterprise applications, and many more.
+When compared with C++, Java codes are generally more maintainable because Java does not allow many things which may lead to bad/inefficient programming if used incorrectly. For example, non-primitives are always references in Java. So we cannot pass large objects (like we can do in C++) to functions, we always pass references in Java. One more example, since there are no pointers, bad memory access is also not possible.
+When compared with Python, Java kind of fits between C++ and Python. The programs are written in Java typically run faster than corresponding Python programs and slower than C++. Like C++, Java does static type checking, but Python does not.
+Applications of Java
+Here in this section, we have added some of the applications that were developed using the Java programming language.
+
+Mobile Applications
+Desktop GUI Applications
+Artificial intelligence
+Scientific Applications
+Cloud Applications
+Embedded Systems
+Gaming Applications
+Java Practice Problems
+Keep up your pace and try hard till you excel in it. This will need some motivation and resources to Practice Java. So, there are few resources mentioned below this will help you in your journey:
+
+Java Interview Questions and Answers
+Java Programming Examples
+Java Exercises – Basic to Advanced Java Practice Programs with Solutions
+Java Language MCQs with Answers
+Java Practice Quiz
+Java Jobs & Opportunity
+According to report of Statista.com Java is most demanded programming languages after JavaScript by recruiters worldwide in 2024. Major MNC companies are recruiting Java Programmers.
+
+Amazon
+Tesla
+IBM
+Google
+Honeywell
+Netflix
+Meta
+Wipro
+Infosys
+Accenture
+Oracle Inc
+Deloitte India
+Cognizant
+Capgemini
+Many more…
+Java Latest & Upcoming Features
+On march Java has released Java 21 and here in this section we have mentioned all the latest features that one can opt in Java 21. Along with this we have also mentioned the pipeline features of upcoming Java update.
+
+Hidden Classes (Preview): Introduces a mechanism to restrict access to specific members of a class, enhancing modularity and code maintainability.
+Improved Garbage Collector Ergonomics (JEP 429): Simplifies configuration and monitoring of the garbage collection process.
+API Updates: Updates to existing APIs like java.io.file for better file handling capabilities.
+Upcoming Features (Expected in Java 22 – September 2024):
+Vector API (Incubator): A new API designed for high-performance vector computations, potentially beneficial for scientific computing and machine learning applications.
+Project Panama (Preview): Aims to improve interoperability between Java and native code, potentially simplifying interactions with non-Java libraries and frameworks.
+Trends in Java Development:
+Java continues to prioritize features that enhance application performance and developer experience.
+Java’s strong position in cloud environments is expected to hold as cloud computing remains a dominant trend.
+Java’s suitability for building scalable and modular systems aligns well with the popularity of microservices architectures.
+Expect to see Java evolving to integrate more seamlessly with technologies like artificial intelligence, big data, and the Internet of Things (IoT).
+Java Programming Tutorial: FAQs
+Why use Java ?
+Java is simple to understand programming language because doesn’t contain concepts like : Pointers and operator overloading and it is secure and portable.
+
+What are the major concepts in Java?
+There are 4 major concept in Java that is abstraction, encapsulation, polymorphism, and inheritance. Along with this Java also works with three OOPs concept
+
+How Java different to C++ ?
+C++	JAVA
+C++ is platform dependent.	Java is platform independent.
+C++ uses compiler only.	Java uses compiler and interpreter both.
+C++ support pointers and operator overloading.	Java doesn’t support pointers and operator overloading concept.
+C++ not support multithreading concept.	Java supports multithreading concept.
+Why Java is so popular programming language?
+Java is based on object model hence it is one the popular programming language.
+
+What are the scope of Java Technologies for Web Applications?
+Java Technologies for Web Applications are a set of Java-based technologies that are used to develop web applications. These technologies include:
+
+Java Servlet API
+JavaServer Pages
+JavaServer Faces
+Enterprise JavaBeans
+JDBC (Java Database Connectivity)
+Java Messaging Service (JMS):
+JavaMail API:
+JAX-WS
+Check More Resources Related to Java Programming
+
+
+
+Elevate your coding journey with a Premium subscription. Benefit from ad-free learning, unlimited article summaries, an AI bot, access to 35+ courses, and more-available only with GeeksforGeeks Premium! Explore now!
+Want to be a master in Backend Development with Java for building robust and scalable applications? Enroll in Java Backend and Development Live Course by GeeksforGeeks to get your hands dirty with Backend Programming. Master the key Java concepts, server-side programming, database integration, and more through hands-on experiences and live projects. Are you new to Backend development or want to be a Java Pro? This course equips you with all you need for building high-performance, heavy-loaded backend systems in Java. Ready to take your Java Backend skills to the next level? Enroll now and take your development career to sky highs.
+
+
